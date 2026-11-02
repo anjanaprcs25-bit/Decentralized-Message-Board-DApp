@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; min-height: 100vh; display: grid; place-items: center;
+  padding: 20px; font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #101827, #243b63); color: #172033;
+}
+.card {
+  width: min(100%, 520px); background: white; padding: 30px;
+  border-radius: 16px; box-shadow: 0 18px 50px #0005;
+}
+h1 { margin-top: 0; font-size: 27px; }
+.subtitle { color: #64748b; line-height: 1.5; }
+button {
+  width: 100%; padding: 13px; margin: 9px 0; border: 0; border-radius: 8px;
+  background: #3156c9; color: white; font-size: 15px; cursor: pointer;
+}
+button:disabled { opacity: .5; cursor: not-allowed; }
+button.secondary { background: #e8edf8; color: #243b63; }
+label { display: block; font-weight: bold; margin: 18px 0 8px; }
+textarea {
+  width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px;
+  font: inherit; resize: vertical;
+}
+.status { color: #52627a; overflow-wrap: anywhere; font-size: 14px; }
+.result { background: #f1f5fb; padding: 15px; border-radius: 9px; margin-top: 15px; }
+.result h2 { font-size: 17px; margin-top: 0; }
+#messageOutput { overflow-wrap: anywhere; }
+.network { text-align: center; color: #64748b; font-size: 12px; }
+hr { border: 0; border-top: 1px solid #e2e8f0; margin: 20px 0; }
